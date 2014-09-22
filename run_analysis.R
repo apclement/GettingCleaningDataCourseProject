@@ -42,8 +42,8 @@ sum.data <- tidy.data %>%
   group_by(subject, activity) %>%
   summarise_each(funs(mean))
 
-# write sum.data into a text file name tidy.txt
-write.table(sum.data, file='tidy_data.txt', row.name=FALSE )
+# write sum.data into a text file name sum_data.txt
+write.table(sum.data, file='sum_data.txt', row.name=FALSE )
 
 sum.data
 

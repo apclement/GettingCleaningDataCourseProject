@@ -3,7 +3,7 @@ title: "README"
 output: html_document
 ---
 
-Run the `run_analysis.R` script to create a file `tidy_data.txt` containing the tidy data for the raw UCI HAR Dataset.
+Run the `run_analysis.R` script to create a file `sum_data.txt` containing the tidy data for the raw UCI HAR Dataset.
 
 The script uses `dplyr` to compute mean of each variable group by activity and subject. 
 
