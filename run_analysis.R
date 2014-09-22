@@ -39,7 +39,7 @@ tidy.data$subject <- subjects[[1]]
 library(dplyr)
 
 sum.data <- tidy.data %>%
-  group_by(activity, subject) %>%
+  group_by(subject, activity) %>%
   summarise_each(funs(mean))
 
 # write sum.data into a text file name tidy.txt
