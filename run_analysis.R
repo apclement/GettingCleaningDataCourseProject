@@ -43,7 +43,8 @@ sum.data <- tidy.data %>%
   summarise_each(funs(mean))
 
 # write sum.data into a text file name sum_data.txt
-write.table(sum.data, file='sum_data.txt', row.name=FALSE )
+write.table(sum.data, file='sum_data.txt', row.name=FALSE)
 
 sum.data
+
 
